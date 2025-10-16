@@ -4,16 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bunak Heritage Blog</title>
-
-  <!-- Font & Bootstrap -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
-  <!-- ✅ Gunakan path relatif agar bekerja di GitHub Pages -->
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/style_sidebar.css">
+  <!-- file CSS ada di ROOT -->
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./style_sidebar.css">
 </head>
-
 <body>
   <div class="sidebar"></div>
   <div class="main-content">
@@ -21,13 +17,10 @@
       <section class="text-center mb-5">
         <h1 class="display-4 font-weight-bold" style="color:#7c5e3c;">Bunak Heritage Blog</h1>
         <p class="lead mt-3" style="font-size:1.25em;">
-          Bemvindu ba blog nee neebe dedikadu atu hatudu no partilha kona-ba
-          <strong>Suku Bunak</strong>, grupu etnik uluk ida iha Timor-Leste no Timor Barat.<br>
-          Blog ne'e mak plataforma atu partilha istoria, kultura, lian, adat istiadat,
-          no moris komunidade Bunak ba publiku lokal no internasionál.
+          Bemvindu ba blog nee neebe dedikadu atu hatudu no partilha kona-ba <strong>Suku Bunak</strong>, grupu etnik uluk ida iha Timor-Leste no Timor Barat.<br>
+          Blog ne'e mak plataforma atu partilha istoria, kultura, lian, adat istiadat, no moris komunidade Bunak ba publiku lokal no internasionál.
         </p>
 
-        <!-- Card utama -->
         <div class="row justify-content-center mt-4">
           <div class="col-md-8">
             <div class="card shadow-sm border-0 mb-4">
@@ -38,52 +31,42 @@
                   Iha Timor-Leste, ema Bunak maioria hela iha Bobonaro no Cova Lima.<br>
                   Ema Bunak hadomi relasaun familia toos, tradisaun, no valor komunidade.
                 </p>
-
                 <h4 class="font-weight-bold mb-3" style="color:#a68b5b;">Fatin Hela</h4>
                 <p style="font-size:1.08em; color:#5a4630;">
-                  Komunidade Bunak hela iha foho no vale hodi hahu hosi Maliana, Toba, Kdalak,
-                  til komprende rai laran cota foho ho aldeia perbatasan.<br>
+                  Komunidade Bunak hela iha foho no vale hodi hahu hosi Maliana, Toba, Kdalak, til komprende rai laran cota foho ho aldeia perbatasan.<br>
                   Iha mos diaspora iha Dili tanba servisu, estudu no mobilidade.
                 </p>
               </div>
             </div>
 
-            <!-- Card kedua -->
             <div class="card shadow-sm border-0">
               <div class="card-body" style="background:#f8f5f0;">
                 <ul class="list-unstyled mb-0" style="font-size:1.1em;">
-                  <li><span style="color:#a68b5b;font-weight:600;">&#9679; Edukasaun Kultura:</span> 
-                    Fo informasaun kona-ba tradisaun, dansa, vestuariu adat, no valor sosial Bunak.</li>
-                  <li><span style="color:#a68b5b;font-weight:600;">&#9679; Promosaun Turismu Lokal:</span> 
-                    Hatudu destinasaun no potencial turismu kultura Bunak.</li>
-                  <li><span style="color:#a68b5b;font-weight:600;">&#9679; Prezervasaun Lian & Adat:</span> 
-                    Dokumenta kosa kata, istoria liafuan, no adat istiadat Bunak.</li>
-                  <li><span style="color:#a68b5b;font-weight:600;">&#9679; Dokumentasaun Digital:</span> 
-                    Fasilita inspirasaun no referénsia ba generasaun foun Bunak.</li>
+                  <li><span style="color:#a68b5b;font-weight:600;">&#9679; Edukasaun Kultura:</span> Fo informasaun kona-ba tradisaun, dansa, vestuariu adat, no valor sosial Bunak.</li>
+                  <li><span style="color:#a68b5b;font-weight:600;">&#9679; Promosaun Turismu Lokal:</span> Hatudu destinasaun no potencial turismu kultura Bunak.</li>
+                  <li><span style="color:#a68b5b;font-weight:600;">&#9679; Prezervasaun Lian & Adat:</span> Dokumenta kosa kata, istoria liafuan, no adat istiadat Bunak.</li>
+                  <li><span style="color:#a68b5b;font-weight:600;">&#9679; Dokumentasaun Digital:</span> Fasilita inspirasaun no referénsia ba generasaun foun Bunak.</li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
 
-        <!-- Gambar -->
         <div class="text-center mt-5">
-          <img src="./img/bunak2.jpg" alt="Suku Bunak" class="img-fluid rounded shadow mb-3" style="max-width:500px;">
-          <img src="./img/umatadat.jpeg" alt="Uma Adat" class="img-fluid rounded shadow mb-3" style="max-width:500px;">
-          <figcaption class="mt-2" style="color:#7c5e3c;font-size:1em;">
-            Uma adat no komunidade Suku Bunak
-          </figcaption>
+          <!-- gambar ada di ROOT -->
+          <img src="./bunak2.jpg" alt="Suku Bunak" class="img-fluid rounded shadow mb-3" style="max-width:500px;">
+          <img src="./umatadat.jpeg" alt="Uma Adat" class="img-fluid rounded shadow mb-3" style="max-width:500px;">
+          <figcaption class="mt-2" style="color:#7c5e3c;font-size:1em;">Uma adat no komunidade Suku Bunak</figcaption>
         </div>
       </section>
     </main>
 
-    <!-- Footer -->
     <footer class="text-center py-4">
       <p>&copy; 2025 Bunak Heritage Blog. All rights reserved.</p>
     </footer>
   </div>
 
-  <!-- ✅ Gunakan path relatif untuk JS -->
-  <script src="./js/sidebar.js"></script>
+  <!-- file JS ada di ROOT -->
+  <script src="./sidebar.js"></script>
 </body>
 </html>
