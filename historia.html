@@ -1,49 +1,67 @@
 <!DOCTYPE html>
 <html lang="tet">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Historia - Bunak Heritage Blog</title>
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="./css/style.css">
-<link rel="stylesheet" href="./css/style_sidebar.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Historia - Bunak Heritage Blog</title>
+
+  <!-- Fonts & Bootstrap -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- ✅ CSS file ada di ROOT -->
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./style_sidebar.css">
 </head>
 <body>
-    <div class="sidebar"></div>
-    <div class="main-content">
-        <main>
-            <section class="text-center mb-5">
-                <h1 class="display-4 font-weight-bold" style="color:#7c5e3c;">Historia Suku Bunak</h1>
-                <p class="lead mt-3" style="font-size:1.2em;">
-                    Suku Bunak mak hanesan ida hosi grupu etnik uluk iha Timor-Leste no Timor Oan sira iha Indonesia. Suku ne'e iha istoria boot, adat, no valor sosial ne'ebé forte.
+  <div class="sidebar"></div>
+  <div class="main-content">
+    <main>
+      <section class="text-center mb-5">
+        <h1 class="display-4 font-weight-bold" style="color:#7c5e3c;">Historia Suku Bunak</h1>
+        <p class="lead mt-3" style="font-size:1.2em;">
+          Suku Bunak mak hanesan ida hosi grupu etnik uluk iha Timor-Leste no Timor Oan sira iha Indonesia. 
+          Suku ne'e iha istoria boot, adat, no valor sosial ne'ebé forte.
+        </p>
+
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-8">
+            <div class="card shadow-sm border-0">
+              <div class="card-body" style="background:#f8f5f0;">
+                <h5 class="card-title" style="color:#a68b5b;">Asal-Usul & Perkembangan</h5>
+                <p class="card-text" style="font-size:1.05em;">
+                  Suku Bunak nian istoria husi tempu uluk, bele hetan iha Timor-Leste no Timor Barat. 
+                  Komunidade Bunak halo parte importante iha narasi Timor, ho tradisaun, lian, no adat sira ne'ebé fo identidade ba generasaun sira.
                 </p>
-                <div class="row justify-content-center mt-4">
-                    <div class="col-md-8">
-                        <div class="card shadow-sm border-0">
-                            <div class="card-body" style="background:#f8f5f0;">
-                                <h5 class="card-title" style="color:#a68b5b;">Asal-Usul & Perkembangan</h5>
-                                <p class="card-text" style="font-size:1.05em;">
-                                    Suku Bunak nian istoria husi tempu uluk, bele hetan iha Timor-Leste no Timor Barat. Komunidade Bunak halo parte importante iha narasi Timor, ho tradisaun, lian, no adat sira ne'ebé fo identidade ba generasaun sira.
-                                </p>
-                                <h5 class="card-title mt-4" style="color:#a68b5b;">Nilai Budaya & Sosial</h5>
-                                <p class="card-text" style="font-size:1.05em;">
-                                    Suku Bunak halo parte vital iha moris Timor-Leste, ho valor solidaridade, respeitu ba ulun boot, no adat istiadat ne'ebé halo komunidade Bunak unik. Kultura Bunak mak hanesan patrimoniu nasional ne'ebé presiza sei prezerva.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="text-center mt-5">
-                    <img src="img/bunak1.jpg" alt="Sejarah Suku Bunak" class="img-fluid rounded shadow" style="max-width:500px;">
-                    <figcaption class="mt-2" style="color:#7c5e3c;font-size:1em;">Dokumentasi sejarah dan masyarakat Bunak</figcaption>
-                </div>
-            </section>
-        </main>
-        <footer class="text-center py-4">
-            <p>&copy; 2025 Bunak Heritage Blog. All rights reserved.</p>
-        </footer>
-    </div>
-    <script src="./js/sidebar.js"></script>
+
+                <h5 class="card-title mt-4" style="color:#a68b5b;">Nilai Budaya & Sosial</h5>
+                <p class="card-text" style="font-size:1.05em;">
+                  Suku Bunak halo parte vital iha moris Timor-Leste, ho valor solidaridade, respeitu ba ulun boot, 
+                  no adat istiadat ne'ebé halo komunidade Bunak unik. 
+                  Kultura Bunak mak hanesan patrimoniu nasional ne'ebé presiza sei prezerva.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center mt-5">
+          <!-- ✅ Gambar ada di ROOT -->
+          <img src="./bunak1.jpg" alt="Sejarah Suku Bunak" class="img-fluid rounded shadow" style="max-width:500px;">
+          <figcaption class="mt-2" style="color:#7c5e3c;font-size:1em;">
+            Dokumentasi sejarah dan masyarakat Bunak
+          </figcaption>
+        </div>
+      </section>
+    </main>
+
+    <footer class="text-center py-4">
+      <p>&copy; 2025 Bunak Heritage Blog. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <!-- ✅ JS file ada di ROOT -->
+  <script src="./sidebar.js"></script>
 </body>
 </html>
+
