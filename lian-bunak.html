@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="tet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lian Bunak - Bunak Heritage Blog</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_sidebar.css">
+</head>
+<body>
+    <div class="sidebar"></div>
+    <div class="main-content">
+        <main>
+            <section class="text-center mb-5">
+                <h1 class="display-4 font-weight-bold" style="color:#7c5e3c;">Lian Bunak</h1>
+                <p class="lead mt-3" style="font-size:1.2em;">
+                    Lian Bunak mak lian uluk ne'ebé uza husi komunidade Bunak. Iha página ida ne'e, ita bele aprende kona-ba kosakata, fraze, no tradusaun ba Tetun no English.
+                </p>
+                <div class="row justify-content-center mt-4">
+                    <div class="col-md-8">
+                        <div class="card shadow-sm border-0 mb-4">
+                            <div class="card-body" style="background:#f8f5f0;">
+                                <h5 class="font-weight-bold mb-3" style="color:#a68b5b;">Informasaun Lian Bunak</h5>
+                                <p style="font-size:1.08em; color:#5a4630;">
+                                    Lian Bunak laos lian Austronesia.<br>
+                                    Lian Bunak hanesan parte husi famelia lian Timor, Alor, Pantar.<br>
+                                    Ema Bunak barak sai dua lian: koalia Bunak ho Tetun no mos Indonézia ka Portugés depende situasaun.<br>
+                                    Lian Bunak hetan papel boot iha ritual adat no lia moris loron-loron.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card shadow-sm border-0">
+                            <div class="card-body" style="background:#f8f5f0;">
+                                <h5 class="card-title" style="color:#a68b5b;">Kosakata & Terjemahan</h5>
+                                <div class="table-responsive">
+                                    <table class="table table-striped table-bordered" id="kosakata-table" style="border-radius:14px; overflow:hidden; background:#fff;">
+                                        <thead>
+                                            <tr style="background:linear-gradient(90deg,#a68b5b 80%,#e2d6b1 100%);color:#8a0808;">
+                                                <th style="width:30%;">Bunak</th>
+                                                <th style="width:35%;">Tetun</th>
+                                                <th style="width:35%;">English</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Uma</td>
+                                                <td>Uma</td>
+                                                <td>House</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Aman</td>
+                                                <td>Aman</td>
+                                                <td>Father</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Ina</td>
+                                                <td>Ina</td>
+                                                <td>Mother</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Bee</td>
+                                                <td>Bee</td>
+                                                <td>Water</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Ai</td>
+                                                <td>Ai</td>
+                                                <td>Tree</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Malirin</td>
+                                                <td>Malirin</td>
+                                                <td>Cold</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Manas</td>
+                                                <td>Manas</td>
+                                                <td>Hot</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Feto</td>
+                                                <td>Feto</td>
+                                                <td>Woman</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Mane</td>
+                                                <td>Mane</td>
+                                                <td>Man</td>
+                                            </tr>
+                                        </tbody>
+                                        <tbody id="extra-kosakata" style="display:none;">
+                                            <tr>
+                                                <td>Hare</td>
+                                                <td>Hare</td>
+                                                <td>Rice</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Ai-fuan</td>
+                                                <td>Ai-fuan</td>
+                                                <td>Fruit</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Fatuk</td>
+                                                <td>Fatuk</td>
+                                                <td>Stone</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Laran</td>
+                                                <td>Laran</td>
+                                                <td>Heart</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Matabesi</td>
+                                                <td>Matabesi</td>
+                                                <td>Sun</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Rain</td>
+                                                <td>Rain</td>
+                                                <td>Earth</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Fuan</td>
+                                                <td>Fuan</td>
+                                                <td>Seed</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Liman</td>
+                                                <td>Liman</td>
+                                                <td>Hand</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Oan</td>
+                                                <td>Oan</td>
+                                                <td>Child</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="text-center mb-3">
+                                    <button class="btn btn-outline-primary" id="show-more-kosakata" style="border-radius:8px;font-weight:600;">Lee barak kosakata</button>
+                                </div>
+                                <style>
+                                    #kosakata-table th, #kosakata-table td {
+                                        text-align: center;
+                                        vertical-align: middle;
+                                        padding: 14px 8px;
+                                        border-color: #e2d6b1;
+                                        font-size: 1.08em;
+                                        background: #fff;
+                                    }
+                                    #kosakata-table thead th {
+                                        font-size: 1.13em;
+                                        font-weight: 700;
+                                        letter-spacing: 1px;
+                                        border-bottom: 2px solid #a68b5b;
+                                    }
+                                    #kosakata-table tbody tr {
+                                        transition: background 0.18s;
+                                    }
+                                    #kosakata-table tbody tr:hover {
+                                        background: #f8f5f0;
+                                    }
+                                    #kosakata-table {
+                                        box-shadow: 0 2px 12px rgba(124,94,60,0.08);
+                                    }
+                                </style>
+                                <script>
+                                    document.getElementById('show-more-kosakata').onclick = function() {
+                                        document.getElementById('extra-kosakata').style.display = '';
+                                        this.disabled = true;
+                                        this.textContent = "Kosakata barak hotu-hotu";
+                                    };
+                                </script>
+                                <h5 class="card-title mt-4" style="color:#a68b5b;">Fraze Diak</h5>
+                                <ul style="font-size:1.05em;">
+                                    <li><strong>Bondia!</strong> - Bondia! (Tetun) - Good morning!</li>
+                                    <li><strong>Obrigadu!</strong> - Obrigadu! (Tetun) - Thank you!</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-5">
+                    <img src="img/jovenbunak.jpg" alt="Bahasa Bunak" class="img-fluid rounded shadow" style="max-width:500px;">
+                    <figcaption class="mt-2" style="color:#7c5e3c;font-size:1em;">Belajar lian Bunak bersama generasi muda</figcaption>
+                </div>
+            </section>
+        </main>
+        <footer class="text-center py-4">
+            <p>&copy; 2025 Bunak Heritage Blog. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="js/sidebar.js"></script>
+</body>
+</html>
